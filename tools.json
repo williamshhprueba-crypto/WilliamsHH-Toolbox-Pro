@@ -1,0 +1,154 @@
+[
+  {
+    "id": "platform-tools",
+    "name": "Platform-Tools (ADB + Fastboot)",
+    "category": "Drivers y ADB",
+    "desc": "Pack oficial de Google con ADB y Fastboot. La base de todo técnico.",
+    "badge": "OFICIAL",
+    "download_url": "https://dl.google.com/android/repository/platform-tools-latest-windows.zip",
+    "filename": "platform-tools.zip",
+    "page_url": "https://developer.android.com/tools/releases/platform-tools",
+    "tutorial_url": null
+  },
+  {
+    "id": "google-usb-driver",
+    "name": "Google USB Driver",
+    "category": "Drivers y ADB",
+    "desc": "Driver USB oficial para ADB/Fastboot en Pixel, Moto, Xiaomi y más.",
+    "badge": "OFICIAL",
+    "download_url": "https://dl.google.com/android/repository/usb_driver_r13-windows.zip",
+    "filename": "usb_driver.zip",
+    "page_url": "https://developer.android.com/studio/run/win-usb",
+    "tutorial_url": null
+  },
+  {
+    "id": "samsung-usb-driver",
+    "name": "Samsung USB Driver",
+    "category": "Drivers y ADB",
+    "desc": "Driver oficial Samsung para Galaxy y modo Download (Odin).",
+    "badge": "OFICIAL",
+    "download_url": null,
+    "page_url": "https://developer.samsung.com/mobile/android-usb-driver.html",
+    "tutorial_url": null
+  },
+  {
+    "id": "mtkclient",
+    "name": "MTKClient (MediaTek)",
+    "category": "MTK",
+    "desc": "Herramienta open-source para leer, flashear y reparar equipos MTK en modo BROM/Preloader.",
+    "badge": "OPEN SOURCE",
+    "download_url": null,
+    "page_url": "https://github.com/bkerler/mtkclient",
+    "tutorial_url": null
+  },
+  {
+    "id": "needrom",
+    "name": "NeedRom — Firmwares y ROMs",
+    "category": "Firmwares",
+    "desc": "Página con firmwares y ROMs de todas las marcas: Samsung, Xiaomi, Oppo, Tecno, iTel y más.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": "https://www.needrom.com/",
+    "tutorial_url": "https://www.youtube.com/watch?v=7KJAZiU9cx0"
+  },
+  {
+    "id": "softwarecrackguru",
+    "name": "SoftwareCrackGuru — Tools GSM",
+    "category": "Herramientas",
+    "desc": "Blog con herramientas GSM, flasheo y utilidades para técnicos. Mira el tutorial antes de descargar.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": "https://www.softwarecrackguru.com/",
+    "tutorial_url": "https://www.youtube.com/watch?v=I3lmfzkFGRM"
+  },
+  {
+    "id": "nusantara",
+    "name": "Nusantara Unlock Tool",
+    "category": "Unlock",
+    "desc": "Quita FRP, Mi Cloud y bloqueo de pantalla en Xiaomi, Oppo, Vivo, Samsung y Huawei. MTK + Qualcomm + EDL.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=UEZ_TTf-PLg"
+  },
+  {
+    "id": "gsmcodepro",
+    "name": "GsmCodePro FRP Tool",
+    "category": "FRP",
+    "desc": "Remueve cuenta Google en Samsung Exynos con Android 14/15/16.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=kPng2twvPXA"
+  },
+  {
+    "id": "nzo-mtk",
+    "name": "NZO MTK Xiaomi Tool",
+    "category": "MTK",
+    "desc": "Herramienta MTK para equipos Xiaomi: flasheo, FRP y servicio.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=oN5l3y4bYTI"
+  },
+  {
+    "id": "omt-tool",
+    "name": "OMT Tool",
+    "category": "Unlock",
+    "desc": "Herramienta de servicio y desbloqueo paso a paso.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=TLlpybgrROk"
+  },
+  {
+    "id": "st-mtk-tool",
+    "name": "ST MTK Tool",
+    "category": "MTK",
+    "desc": "Servicio para equipos MediaTek paso a paso.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=C8Q2x8ov_Q0"
+  },
+  {
+    "id": "tunapro",
+    "name": "TunaPro Tool",
+    "category": "Unlock",
+    "desc": "Tutorial completo paso a paso de TunaPro Tool.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=z6xpXFAyPQk"
+  },
+  {
+    "id": "softwarefix",
+    "name": "SoftwareFix (Motorola / Lenovo)",
+    "category": "Flasheo",
+    "desc": "Flashea y revive Motorola y Lenovo fácil y seguro.",
+    "badge": "GRATIS",
+    "download_url": null,
+    "page_url": null,
+    "tutorial_url": "https://www.youtube.com/watch?v=XicnFixnVN4"
+  },
+  {
+    "id": "teracopy",
+    "name": "TeraCopy",
+    "category": "PC",
+    "desc": "Copias de archivos más rápidas en Windows. Ideal para respaldos de firmware.",
+    "badge": "PC",
+    "download_url": null,
+    "page_url": "https://www.codesector.com/teracopy",
+    "tutorial_url": "https://www.youtube.com/watch?v=T5Mi0V_sHRo"
+  },
+  {
+    "id": "ssd-fresh",
+    "name": "Abelssoft SSD Fresh",
+    "category": "PC",
+    "desc": "Optimiza Windows para discos SSD y alarga su vida útil.",
+    "badge": "PC",
+    "download_url": null,
+    "page_url": "https://www.abelssoft.de/en/windows/system-tools/ssd-fresh",
+    "tutorial_url": "https://www.youtube.com/watch?v=YN6HfloQPWg"
+  }
+]
