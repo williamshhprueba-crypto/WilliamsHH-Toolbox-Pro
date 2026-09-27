@@ -1,0 +1,58 @@
+[
+  {
+    "id": "platform-tools",
+    "name": "Platform-Tools (ADB + Fastboot) — Google",
+    "desc": "Herramientas oficiales de Google para comunicarte con cualquier Android. La Toolbox las descarga solas cuando las necesita.",
+    "type": "auto",
+    "url": "https://dl.google.com/android/repository/platform-tools-latest-windows.zip",
+    "page_url": "https://developer.android.com/tools/releases/platform-tools",
+    "size": "~8 MB",
+    "detect": ["platform-tools"],
+    "notes": "Descarga directa oficial. Sin instalador: se extrae y listo."
+  },
+  {
+    "id": "google-usb",
+    "name": "Google USB Driver (ADB / Fastboot)",
+    "desc": "Driver USB oficial de Google para modo ADB y Fastboot en Pixel, Motorola, Xiaomi y más.",
+    "type": "direct_zip",
+    "url": "https://dl.google.com/android/repository/usb_driver_r13-windows.zip",
+    "page_url": "https://developer.android.com/studio/run/win-usb",
+    "size": "~8.6 MB",
+    "detect": ["android"],
+    "notes": "ZIP oficial. Luego: Administrador de dispositivos → tu equipo → Actualizar controlador → Buscar en la carpeta descargada."
+  },
+  {
+    "id": "samsung-usb",
+    "name": "Samsung USB Driver (teléfonos y Download Mode)",
+    "desc": "Driver oficial Samsung para conectar Galaxy en modo normal y Download (Odin).",
+    "type": "page",
+    "page_url": "https://developer.samsung.com/mobile/android-usb-driver.html",
+    "size": "~35 MB",
+    "detect": ["samsung"],
+    "notes": "Descárgalo desde la página oficial de Samsung e instálalo con siguiente-siguiente."
+  },
+  {
+    "id": "mtk-usb",
+    "name": "MTK / MediaTek USB + VCOM + Preloader",
+    "desc": "Drivers para equipos MediaTek (Tecno, Infinix, iTel, Xiaomi MTK...). Necesarios para SP Flash y EDL MTK.",
+    "type": "page",
+    "page_url": "https://www.gsmofficial.com/mtk-usb-driver/",
+    "mirrors": [
+      {"label": "Guía GizDev", "url": "https://www.gizdev.com/mtk-usb-drivers/"},
+      {"label": "MTKClient Docs", "url": "https://github.com/bkerler/mtkclient"}
+    ],
+    "size": "~9 MB",
+    "detect": ["mediatek"],
+    "notes": "En Windows 10/11 instala con drivers sin firma (ver guía en PC Fix)."
+  },
+  {
+    "id": "qualcomm-qdloader",
+    "name": "Qualcomm HS-USB QDLoader 9008 (modo EDL)",
+    "desc": "Driver para detectar equipos Qualcomm en modo EDL 9008 (puerto COM).",
+    "type": "page",
+    "page_url": "https://www.catalog.update.microsoft.com/Search.aspx?q=Qualcomm+HS-USB+QDLoader+9008",
+    "size": "~2 MB",
+    "detect": ["qualcomm"],
+    "notes": "Busca 'QDLoader 9008' en el Catálogo de Microsoft e instala el paquete x64."
+  }
+]
